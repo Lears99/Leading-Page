@@ -1,0 +1,594 @@
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins-ThinItalic.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Poppins-bold';
+    src: url('/fonts/Poppins-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Poppins-light';
+    src: url('/fonts/Poppins-LightItalic.ttf');
+    font-weight: bold;
+}
+
+/*HTML*/
+
+body{
+    width: 1366px;
+    height: 100%;
+    margin: auto;
+    background-color: rgba(245, 245, 239, 0.699);
+}
+
+#ContainerPrincipal{
+    width: 100%;
+    height: 100%;
+}
+
+/*HEADER*/
+
+#header{
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+#ElementosFila{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Nombre{
+    color: black;
+    font-family: 'Poppins';
+    font-size: 2rem;
+}
+
+.item{
+    display: inline;
+    font-family: 'Poppins-light';
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: gray;
+}
+
+#telefono{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#textel{
+    font-family: 'Poppins';
+    color: gray;
+    padding-right: 10px;
+}
+
+/*CONTENIDO*/
+
+#Contenido{
+    width: 960px;
+    height: 500px;
+    margin: auto;
+    background: url("images/isra.png") no-repeat top;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#columna1{
+    width: 400px;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#titulo{
+    padding: 18px;
+    font-family: 'Poppins-bold';
+    font-size: 36px;
+    color:darkslategrey
+}
+
+#correo{
+    padding: 18px;
+    color: orange;
+}
+
+#fila10{
+    padding: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#num{
+    font-family: 'Poppins-bold';
+    font-size: 45px;
+    color: darkslategray;
+}
+
+#anios{
+    font-family: 'Poppins-bold';
+    font-size: 12px;
+    width: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 5px;
+    color: darkslategray;
+}
+
+#columna2{
+    width: 400px;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#descripcion{
+    padding: 18px;
+    margin-top: 60px;
+    width: 80%;
+    font-family: 'Poppins-bold';
+    font-size: 14px;
+    text-align: justify
+}
+
+#colImgText{
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#loguito{
+    margin: auto;
+}
+
+#idf{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    font-family: 'Poppins-bold';
+    font-size: 14px;
+}
+
+#profational{
+    margin: auto;
+    font-family: 'Poppins-bold';
+    font-size: 14px;
+}
+
+#uiux{
+    margin: auto;
+    font-family: 'Poppins-bold';
+    font-size: 14px;
+}
+
+/*MAS*/
+
+#mas{
+    width: 960px;
+    margin: auto;
+    
+}
+
+#filaPrin{
+    padding: 80px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#colDesign{
+    width: 400px;
+}
+
+.card{
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    border: solid black 1px;
+}
+
+.filaCard{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoCard{
+    width: 40px;
+    height: 40px;
+}
+
+.colCard{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titCard{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Poppins-bold';
+    font-size: 16px;
+    color: darkslategray;
+}
+
+.projects{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#colHelp{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#help{
+    font-family: 'Poppins-bold';
+    font-size: 42px;
+    color: darkslategray;
+}
+
+#filaHelp{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.colNums{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nums{
+    margin: auto;
+    font-family: 'Poppins-bold';
+    font-size: 36px;
+    color: darkslategray;
+}
+
+.desc{
+    margin: auto;
+}
+
+.tituloexp{
+    font-family: 'Roboto Condensed', serif;
+    font-size: 70px;
+    font-weight: bolder;
+    text-align: center; 
+    color: #0D2F3F;
+    margin-bottom: -60px; 
+}
+
+#workexp{
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F7F1;
+    background-image: url(images/deco.PNG);
+    background-repeat: no-repeat;
+    background-position: 600px;
+    background-position-y: 180px;
+}
+
+.titb{
+    font-family: 'Roboto Condensed', serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #0D2F3F;
+}
+
+.texb{
+    color: #0D2F3F;
+    font-family: 'Roboto Condensed', serif;
+    font-size: 24px;
+    margin-top: -30px;
+}
+
+.cuerpoexp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#columna1b{
+    width: 75vh;
+    margin: 10vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#columna2b{
+    width: 75vh;
+    margin: 10vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#lastwork{
+    background-color: white;
+    padding: 10vh;
+}
+
+#headwork{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#correoc{
+    color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#titulo1c{
+    font-family: 'Roboto Condensed', serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #0D2F3F; 
+}
+
+#carrusel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+
+#cont1c{
+    width: 550px;
+    height: 500px;
+    background-color: #60a5ff;
+    border-radius: 20px;
+    background-image: url(images/dweb.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 80px;
+    background-position-x: 10px;
+}
+
+#cont2c{
+    width: 550px;
+    height: 500px;
+    background-color: #58bd9b;
+    border-radius: 20px;
+    background-image: url(images/dmobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 25px;
+}
+
+.titcontc{
+    font-family: 'Roboto Condensed', serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin: 20px; 
+}
+
+.textcontc{
+    font-family: 'Roboto Condensed', serif;
+    font-size: 20px;
+    color: white;
+    margin: 20px; 
+}
+
+#people{
+    background-color: #F8F7F1;
+    width: 100%;
+    height: 100vh;
+}
+
+#peohead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    font-family: 'Roboto Condensed', serif;
+    color: #0D2F3F;
+    font-size: 40px;
+    font-weight: bolder;  
+}
+
+#textd{
+    font-family: 'Roboto Condensed', serif;
+    color: #0D2F3F;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -30px;  
+}
+
+#contd{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.profile{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: -40px;
+    box-shadow: 0px 0px 5px 1px grey;
+}
+
+.text4{
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#tarjeta1{
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 80px;
+}
+
+#tarjeta2{
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#tarjeta3{
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 80px;
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: grey;
+}
+
+.nombre{
+    font-family: 'Roboto Condensed', serif;
+    color: #0D2F3F;
+    font-size: 25px;
+    font-weight: bolder; 
+}
+
+.cargo{
+    font-family: 'Roboto Condensed', serif;
+    font-size: 15px;
+    margin-top: -20px;
+}
+
+
+
+#footbd{
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#colum5izq{
+    display: flex;
+    flex-direction: column;
+}
+
+#colum5der{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eslog{
+    font-family: 'Roboto Condensed', serif;
+    color: #0D2F3F;
+    font-size: 60px;
+    text-align: left;
+}
+
+.start{
+    font-family: 'Roboto Condensed', serif;
+    color: #0D2F3F;
+    font-size: 50px;
+}
+
+#texthi{
+    color: orangered;
+}
+
+#inftit{
+    font-family: 'Roboto Condensed', serif;
+    color: #0D2F3F;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#inftext{
+    font-family: 'Roboto Condensed', serif;
+    color: #0D2F3F;
+    font-size: 25px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Condensed', 'Lucida Sans';
+    font-style: inherit;
+    padding: 15px;
+    color: #0D2F3F;
+    font-weight: bold;
+    text-decoration:none; 
+}
+
+#fin{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
+
+#autor{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #0D2F3F;
+}
+
